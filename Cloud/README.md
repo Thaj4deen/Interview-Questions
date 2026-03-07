@@ -228,13 +228,13 @@
     > It is used in distributed applications.
 
 ##
-30. **When to use Blob Storage and Disk Storage?**
+ 30. **When to use Blob Storage and Disk Storage?**
 
-   > Blob Storage is used to store files, backups, and media content.
-   > It is good for unstructured data.
-   > Disk Storage is used for Virtual Machine operating systems.
-   > It provides high performance for applications.
-   > Disk storage is mainly used for compute workloads.
+     > Blob Storage is used to store files, backups, and media content.
+     > It is good for unstructured data.
+     > Disk Storage is used for Virtual Machine operating systems.
+     > It provides high performance for applications.
+     > Disk storage is mainly used for compute workloads.
 
 ##
 31. **Which monitoring tools have you used?**
@@ -284,35 +284,62 @@
 ##
 36. **What is Entra ID?**
 
-   > Entra ID is the new name for Azure Active Directory.
-   > It is used for identity and access management.
-   > It helps manage users, groups, and permissions.
-   > It supports single sign-on for applications.
-   > It improves security and authentication.
+     > Entra ID is the new name for Azure Active Directory.
+     > It is used for identity and access management.
+     > It helps manage users, groups, and permissions.
+     > It supports single sign-on for applications.
+     > It improves security and authentication.
 
 ##
 37. **What are Managed Services you have experience with?**
 
-   > Managed services are cloud services managed by provider.
-   > I worked with Azure App Service and Azure SQL Database.
-   > I also used Azure Kubernetes Service.
-   > These services reduce infrastructure management effort.
-   > They help focus more on application development.
+     > Managed services are cloud services managed by provider.
+     > I worked with Azure App Service and Azure SQL Database.
+     > I also used Azure Kubernetes Service.
+     > These services reduce infrastructure management effort.
+     > They help focus more on application development.
 
 ##
 38. **How to connect database from outside Azure?**
 
-   > To connect database externally, we allow public access.
-   > We configure firewall rules to allow specific IPs.
-   > We can use VPN for secure connection.
-   > Private Endpoint can also be used for security.
-   > Authentication credentials are required.
+     > To connect database externally, we allow public access.
+     > We configure firewall rules to allow specific IPs.
+     > We can use VPN for secure connection.
+     > Private Endpoint can also be used for security.
+     > Authentication credentials are required.
 
 ##
 39. **Disaster recovery planning in Storage Accounts?**
 
-   > Disaster recovery ensures data safety during failures.
-   > Azure provides geo-redundant storage for backup.
-   > Data is replicated to another region automatically.
-   > We can restore data if primary region fails.
-   > It improves business continuity.
+     > Disaster recovery ensures data safety during failures.
+     > Azure provides geo-redundant storage for backup.
+     > Data is replicated to another region automatically.
+     > We can restore data if primary region fails.
+     > It improves business continuity.
+
+##
+40. **How do you design High Availability application in Azure?**
+
+    > To design high availability, we deploy application in multiple instances.
+    > We use Availability Zones or Availability Sets.
+    > Load Balancer distributes traffic across instances.
+    > Auto-scaling helps handle traffic spikes.
+    > This ensures application runs even if one server fails.
+
+##
+41. **How do you secure Azure infrastructure?**
+
+    > Azure infrastructure is secured using multiple layers.
+    > We use Network Security Groups and Azure Firewall.
+    > Role-Based Access Control restricts user permissions.
+    > Data is encrypted using Azure-managed keys.
+    > Monitoring and alerts help detect security threats.
+
+##
+42. **How do you recover Terraform state file if corrupted?**
+
+    > If state file is corrupted, we restore from backup.
+    > Remote backend usually stores previous versions.
+    > We can download and restore last stable state.
+    > After recovery, we re-run Terraform plan.
+    > This helps restore infrastructure state.
