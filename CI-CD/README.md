@@ -24,12 +24,13 @@
     > It improves code quality and teamwork.
 
 ##
-4. **What is Continuous Integration?**
+4. **Have you used GitHub Actions and Terraform?**
 
-    > Continuous Integration means developers merge code frequently.
-    > Each code change is automatically built and tested.
-    > It helps to find bugs early.
-    > It improves code quality and teamwork.
+    > Yes, I used GitHub Actions for CI/CD automation.
+    > It helped to build and deploy applications automatically.
+    > I used Terraform for Infrastructure as Code.
+    > It helped create Azure resources using scripts.
+    > These tools improved automation and deployment speed.
 
 ##
 5. **Difference between Continuous Delivery and Continuous Deployment?**
