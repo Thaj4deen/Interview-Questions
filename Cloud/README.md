@@ -94,12 +94,12 @@
 
 ##
 13. **If you have a web application using a database, how will you integrate them?**
-    
-   > We connect them using connection strings in the application.
-   > Database firewall rules allow the application to connect securely.
-   > For better security, we use Private Endpoint.
-   > Credentials are stored safely in Azure Key Vault.
-   > This ensures secure and reliable communication.
+
+    > We connect them using connection strings in the application.
+    > Database firewall rules allow the application to connect securely.
+    > For better security, we use Private Endpoint.
+    > Credentials are stored safely in Azure Key Vault.
+    > This ensures secure and reliable communication.
 
 ##
 14. **What is Network Security Group (NSG)?**
