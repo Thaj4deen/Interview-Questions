@@ -95,3 +95,12 @@
     > I worked with GitHub Actions for workflows.
     > I also have experience with Jenkins.
     > These tools help automate build and deployment.
+
+##
+13. **Can we link YAML pipeline with Classic pipeline?**
+
+    > Yes, we can link both pipelines.
+    > YAML pipeline is code-based and stored in repository.
+    > Classic pipeline is UI-based pipeline.
+    > Sometimes YAML builds artifact and classic handles deployment.
+    > But modern projects prefer full YAML pipelines.
