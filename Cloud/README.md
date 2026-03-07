@@ -154,3 +154,84 @@
     > AKS is a full Kubernetes service with more control.
     > AKS is better for complex applications.
     > Container Apps is suitable for simple microservices.
+
+##
+20. **What is the most cost-effective way to deploy Azure applications?**
+
+    > Using Platform as a Service like Azure App Service is cost-effective.
+    > Serverless services reduce infrastructure costs.
+    > Auto-scaling helps reduce unused resources.
+    > Reserved instances save long-term costs.
+    > Proper resource planning reduces expenses.
+
+##
+21. **What are the differences between Azure App Service and other compute services?**
+
+    > Azure App Service is a Platform as a Service.
+    > It manages infrastructure automatically.
+    > Virtual Machines require manual server management.
+    > AKS is used for container orchestration.
+    > App Service is easier for web applications.
+
+##
+22. **What are different ways to deploy applications?**
+
+    > Applications can be deployed using VMs, App Service, Containers, or Serverless.
+    > VM gives full control but needs management.
+    > App Service is easy and managed by Azure.
+    > Containers are flexible and portable.
+    > Serverless is cost-effective for event-based workloads.
+
+##
+23. **What is Serverless Computing?**
+
+    > Serverless computing runs code without managing servers.
+    > Cloud provider handles infrastructure automatically.
+    > We pay only for execution time.
+    > It scales automatically based on demand.
+    > Azure Functions is an example.
+
+##
+24. **What is Event-Driven Architecture?**
+
+    > Event-driven architecture uses events to trigger processes.
+    > One service sends an event and another service reacts.
+    > It improves scalability and flexibility.
+    > It reduces direct dependency between services.
+    > It is used in microservices systems.
+
+##
+25. **What are different types of storage in Azure?**
+
+    > Azure provides Blob Storage, Disk Storage, File Storage, and Queue Storage.
+    > Blob Storage is used for files and media.
+    > Disk Storage is used for Virtual Machines.
+    > File Storage is used for shared file systems.
+    > Queue Storage is used for message communication.
+
+##
+26. **Have you used Messaging Queue services?**
+
+    > Yes, I used Azure Service Bus and Storage Queues.
+    > Messaging queues help different services communicate.
+    > They support asynchronous processing.
+    > They improve scalability and reliability.
+    > It is commonly used in microservices architecture.
+
+##
+27. **What is Queue Storage?**
+
+    > Queue Storage is used to store messages between services.
+    > It helps applications communicate asynchronously.
+    > Messages are processed one by one.
+    > It improves system reliability.
+    > It is used in distributed applications.
+
+##
+30. **When to use Blob Storage and Disk Storage?**
+
+   > Blob Storage is used to store files, backups, and media content.
+   > It is good for unstructured data.
+   > Disk Storage is used for Virtual Machine operating systems.
+   > It provides high performance for applications.
+   > Disk storage is mainly used for compute workloads.
