@@ -271,3 +271,48 @@
     > It displays metrics using dashboards.
     > It helps teams understand system health easily.
     > It improves monitoring visibility.
+
+##
+35. **What kinds of AD migrations have you worked on?**
+
+    > Active Directory migration means moving users and systems to a new domain.
+    > It can be on-premises to on-premises migration.
+    > It can be on-premises to Azure AD migration.
+    > It includes user accounts, groups, and policies migration.
+    > Tools like ADMT are commonly used.
+
+##
+36. **What is Entra ID?**
+
+   > Entra ID is the new name for Azure Active Directory.
+   > It is used for identity and access management.
+   > It helps manage users, groups, and permissions.
+   > It supports single sign-on for applications.
+   > It improves security and authentication.
+
+##
+37. **What are Managed Services you have experience with?**
+
+   > Managed services are cloud services managed by provider.
+   > I worked with Azure App Service and Azure SQL Database.
+   > I also used Azure Kubernetes Service.
+   > These services reduce infrastructure management effort.
+   > They help focus more on application development.
+
+##
+38. **How to connect database from outside Azure?**
+
+   > To connect database externally, we allow public access.
+   > We configure firewall rules to allow specific IPs.
+   > We can use VPN for secure connection.
+   > Private Endpoint can also be used for security.
+   > Authentication credentials are required.
+
+##
+39. **Disaster recovery planning in Storage Accounts?**
+
+   > Disaster recovery ensures data safety during failures.
+   > Azure provides geo-redundant storage for backup.
+   > Data is replicated to another region automatically.
+   > We can restore data if primary region fails.
+   > It improves business continuity.
