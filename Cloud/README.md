@@ -343,3 +343,12 @@
     > We can download and restore last stable state.
     > After recovery, we re-run Terraform plan.
     > This helps restore infrastructure state.
+
+##
+43. **What is a trigger in Azure Functions?**
+
+    > A trigger is an event that starts Azure Function execution.
+    > Example triggers include HTTP request, timer, or queue message.
+    > When event occurs, function runs automatically.
+    > It helps build serverless event-driven applications.
+    > No server management is required.
