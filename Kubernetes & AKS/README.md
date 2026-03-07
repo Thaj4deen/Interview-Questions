@@ -106,4 +106,13 @@
     > Horizontal Pod Autoscaler adjusts replicas based on CPU usage.
     > This helps to handle high traffic.
     > It improves performance and reliability.
+
+##
+13. **If Kubernetes services go down, how do you troubleshoot?**
+
+    > First, I check pod status using kubectl commands.
+    > Then I check logs to find error messages.
+    > I verify node health and resource usage.
+    > I check network and service configuration.
+    > If needed, I restart or redeploy services.
    
