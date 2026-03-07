@@ -177,3 +177,19 @@
     > Pods use DNS names to talk to each other.
     > Network policies control traffic between pods.
     > This ensures secure communication.
+
+21. **Explain KEDA configuration**
+
+    > KEDA stands for Kubernetes Event Driven Autoscaling.
+    > It scales pods based on external events like queue length.
+    > It works with metrics from Kafka, Azure queues, etc.
+    >  We define triggers and scaling rules in YAML.
+    > KEDA helps scale workloads efficiently.
+
+22. **Experience in managing TLS certificates in AKS**
+
+    > Yes, I have managed TLS certificates in AKS.
+    > Certificates secure application traffic using HTTPS.
+    > We store certificates as Kubernetes secrets.
+    > Ingress controller uses them for secure routing.
+    > Cert-manager helps automate certificate renewal.
