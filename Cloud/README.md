@@ -145,3 +145,12 @@
     > Traffic does not go through public internet.
     > It improves security and performance.
     > It is recommended for sensitive applications.
+
+##
+19. **Difference between Azure Container Apps and AKS?**
+
+    > Azure Container Apps is a serverless container service.
+    > It is easy to use and requires less management.
+    > AKS is a full Kubernetes service with more control.
+    > AKS is better for complex applications.
+    > Container Apps is suitable for simple microservices.
