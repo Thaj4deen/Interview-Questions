@@ -52,3 +52,12 @@
     > Terraform is easier to write and manage.
     > ARM templates use JSON which is complex.
     > Terraform is better for multi-cloud environments.
+
+##
+7. **How do you manage Terraform state file in CI/CD pipeline?**
+
+    > Terraform state file should be stored in remote backend.
+    > I use Azure Storage Account for remote storage.
+    > It supports state locking to avoid conflicts.
+    > Team members can collaborate easily.
+    > It improves security and reliability.
