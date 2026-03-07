@@ -142,4 +142,38 @@
     > Only authorized users can access resources.
     > We assign permissions at namespace level.
     > This improves cluster security.
-   
+
+##
+17. **What is HPA and difference between HPA and VPA?**
+
+    > HPA stands for Horizontal Pod Autoscaler.
+    > It increases or decreases number of pods based on load.
+    > VPA stands for Vertical Pod Autoscaler.
+    > It increases CPU and memory of existing pods.
+    > HPA scales out, VPA scales up.
+
+##
+18. **What is a DaemonSet?**
+
+    > DaemonSet ensures one pod runs on every node.
+    > It is used for monitoring and logging agents.
+    > When a new node is added, pod is created automatically.
+    > It helps run background services on all nodes.
+    > Example: Log collectors.
+
+##
+19. **What is StatefulSet?**
+
+    > StatefulSet is used for stateful applications.
+    > It provides stable network identity to pods.
+    > Each pod gets persistent storage.
+    > Pods are created and deleted in order.
+    > It is used for databases.
+
+20. **How to configure pod communication in AKS?**
+
+    > Pods communicate through Kubernetes Services.
+    > Each service gets a stable Cluster IP.
+    > Pods use DNS names to talk to each other.
+    > Network policies control traffic between pods.
+    > This ensures secure communication.
