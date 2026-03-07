@@ -115,4 +115,31 @@
     > I verify node health and resource usage.
     > I check network and service configuration.
     > If needed, I restart or redeploy services.
+
+##
+14. **How do you design Multi Node Pool in AKS?**
+
+    > In AKS, node pools are used to separate workloads.
+    > I create one pool for system workloads.
+    > Another pool is created for user applications.
+    > Each pool can have different VM sizes.
+    > This improves performance and resource management.
+
+##
+15. **How do you fix deployment issues in production?**
+
+    > First, I check application and pod logs.
+    > I verify recent code changes and configuration.
+    > I check resource usage like CPU and memory.
+    > If needed, I rollback to previous stable version.
+    > Then I monitor application after fix.
+
+##
+16. **How do you restrict Namespace access?**
+
+    > Namespace access is controlled using RBAC.
+    > Roles and RoleBindings define user permissions.
+    > Only authorized users can access resources.
+    > We assign permissions at namespace level.
+    > This improves cluster security.
    
