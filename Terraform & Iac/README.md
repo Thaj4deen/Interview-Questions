@@ -29,7 +29,11 @@
 ##
 4. **Where do you store Terraform State File?**
 
-   > In my project, we store Terraform state in Azure Storage Account, not in local system. This gives one centralized state file for the      team and pipeline. Azure also provides state locking using blob lease, so parallel changes will not corrupt the file. We maintain         separate state for each environment like dev and prod. Access is secured using service principal, managed identity, and Key Vault         secrets.”
+   > Commonly, I store the Terraform state file in a remote backend instead of my local system.
+   > In Azure environments, we usually store it in an Azure Storage Account using a blob container.
+   > This helps the team share the same state file safely.
+   > It also supports state locking and versioning to avoid conflicts.
+   > Storing it remotely is the standard and recommended practice.
 
 ##
 5. **What is Terraform Plan and Apply?**
@@ -52,4 +56,4 @@
 ##
 7. **How do you manage Terraform state file in CI/CD pipeline?**
 
-  >  In my project, we store Terraform state in Azure Storage Account, not in local system. This gives one centralized state file for the     team and pipeline. Azure also provides state locking using blob lease, so parallel changes will not corrupt the file. We maintain         separate state for each environment like dev and prod. Access is secured using service principal, managed identity, and Key Vault         secrets.”
+      > In my project, we store Terraform state in Azure Storage Account, not in local system. This gives one centralized state file for the      team and pipeline. Azure also provides state locking using blob lease, so parallel changes will not corrupt the file. We maintain         separate state for each environment like dev and prod. Access is secured using service principal, managed identity, and Key Vault         secrets.”
