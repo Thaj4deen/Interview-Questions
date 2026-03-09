@@ -52,8 +52,4 @@
 ##
 7. **How do you manage Terraform state file in CI/CD pipeline?**
 
-    > Terraform state file should be stored in remote backend.
-    > I use Azure Storage Account for remote storage.
-    > It supports state locking to avoid conflicts.
-    > Team members can collaborate easily.
-    > It improves security and reliability.
+  >  In my project, we store Terraform state in Azure Storage Account, not in local system. This gives one centralized state file for the     team and pipeline. Azure also provides state locking using blob lease, so parallel changes will not corrupt the file. We maintain         separate state for each environment like dev and prod. Access is secured using service principal, managed identity, and Key Vault         secrets.”
